@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"   
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <LinearLayout  
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="@drawable/background_4"
+       android:orientation="vertical">
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="800dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_4">
+        
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/doc_emerg"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="0dp"
+                android:contentDescription="Vision Medicare" />
+            
+        <Button 
+            android:id="@+id/btn_current_loc"
+            android:layout_width="fill_parent"
+		    android:layout_height="38dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="30dp"
+		    android:text="View Your Current Location"
+		    android:textColor="#fff"
+		    android:textSize="13dp"
+	        android:background="#eb543b"/>
+        
+        <Button 
+            android:id="@+id/btn_blood_cont"
+            android:layout_width="fill_parent"
+		    android:layout_height="38dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="25dp"
+		    android:text="Contact For Blood"
+		    android:textColor="#fff"
+		    android:textSize="13dp"
+	        android:background="#eb543b"/>
+        
+        <!-- Ambulance Button -->
+
+        <Button
+            android:id="@+id/btn_ambu"
+            style="@style/DashboardButton"
+            android:layout_marginTop="20dp"
+            android:clickable="false"
+            android:layout_gravity="center"
+            android:drawableTop="@drawable/btn_circle_ambu"
+            android:gravity="center"
+            android:text="Call And Find Ambulance" />
+        
+    </LinearLayout>
+        
+   	<LinearLayout 
+   	    android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+       	android:orientation="vertical">
+    </LinearLayout>
+             
+    
+	</LinearLayout>
+        
+</ScrollView>

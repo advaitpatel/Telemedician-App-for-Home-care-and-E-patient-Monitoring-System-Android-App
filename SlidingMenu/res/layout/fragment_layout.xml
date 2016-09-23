@@ -1,0 +1,88 @@
+<info.androidhive.slidingmenu.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+	
+       <!--  Make Notification Button -->
+	    <Button
+	        android:id="@+id/btn_notification"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/btn_circle_appoint"
+	        android:text="Create Notification"
+	        android:textColor="#EB543B" />
+	    
+		<!--  Make Appointment Button -->
+	    <Button
+	        android:id="@+id/btn_appointment"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/btn_circle_call_doc"
+	        android:text="Book Appointment"
+	        android:textColor="#EB543B" />
+	    
+		<!--  Update Prescription Button -->
+	    <Button
+	        android:id="@+id/btn_prescription"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/btn_circle_cur_pos"
+	        android:text="Upload Prescriptions"
+	        android:textColor="#EB543B" />
+		
+	    <!--  Find Doctor Button -->
+	    <Button
+	        android:id="@+id/btn_doctor"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/btn_circle_history"
+	        android:text="Find Doctor"
+	        android:textColor="#EB543B" />
+	
+	    <!--  Find Medical Store Button -->
+	    <Button
+	        android:id="@+id/btn_medical_store"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/btn_circle_msg"
+	        android:text="Find Medicines"
+	        android:textColor="#EB543B" />
+	
+	    <!--  Find Medical Labs Button -->
+	    <Button
+	        android:id="@+id/btn_labs"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/btn_circle_noti"
+	        android:text="Find Labs"
+	        android:textColor="#EB543B" />
+	    
+	    <!--  Ask Question Button -->
+	    <Button
+	        android:id="@+id/btn_quest"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/btn_circle_presc"
+	        android:text="Ask Question"
+	        android:textColor="#EB543B" />
+		
+	    <!--  Emergency Help Button -->
+	    <Button
+	        android:id="@+id/btn_emergency"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/btn_circle_quest"
+	        android:text="Emergency Help"
+	        android:textColor="#EB543B" />
+	    
+	    <!--  User History Button -->
+	    <Button
+	        android:id="@+id/btn_user_history"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/btn_circle_reports"
+	        android:text="User History"
+	        android:textColor="#EB543B" />
+	    
+		<!--  Donate Body Part Button -->
+	    <Button
+	        android:id="@+id/btn_ins2"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/btn_circle_appoint"
+	        android:text="Donate Body Part"
+	        android:textColor="#EB543B" />
+        
+</info.androidhive.slidingmenu.DashboardLayout>

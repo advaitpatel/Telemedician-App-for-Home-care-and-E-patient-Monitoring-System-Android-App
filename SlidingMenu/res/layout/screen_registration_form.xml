@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"   
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1500dp"
+        android:background="@drawable/bg_gradient"
+        android:orientation="vertical"
+        android:padding="10sp" >
+		
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_centerInParent="true"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:gravity="center"
+	        android:orientation="vertical">
+
+	        <TextView
+	            android:id="@+id/tv_registration_string"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="40dp"
+	            android:text="Registration"
+	            android:textColor="@color/whites"
+	            android:textSize="50dp"
+	            android:textStyle="bold" />
+
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="fill_parent"
+		            android:background="@drawable/bg_form_rounded"
+		            android:orientation="vertical" >
+		
+		            <EditText
+		                android:id="@+id/et_regform_firstname"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                android:background="#f3f3f3"
+		                android:hint="Enter First Name"
+		                android:padding="5dp"
+		                android:inputType="textPersonName" 
+		                android:singleLine="true"/>
+		
+		            <EditText
+		                android:id="@+id/et_regform_lastname"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:background="@null"
+		                android:hint="Enter Last Name"
+		                android:inputType="textPersonName"         
+		                android:padding="5dp" />
+		            
+		            <Spinner
+				    	android:id="@+id/spn_regform_gender" 
+				        android:layout_width="fill_parent"
+				        android:layout_height="40dp"
+				        android:background="#f3f3f3"
+				        android:paddingLeft="5dp"
+				        android:layout_marginTop="10dp"
+				        android:entries="@array/gender_arrays"
+				       	android:prompt="@string/gender_prompt"/>
+		            
+		            <EditText
+		                android:id="@+id/et_regform_address"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                android:background="@null"
+		                android:hint="Enter Address"
+		                android:inputType="textMultiLine"
+		                android:padding="5dp" 
+		                android:singleLine="true"/>
+		            
+		            <Spinner
+				    	android:id="@+id/spn_regform_bloodgroup" 
+				        android:layout_width="fill_parent"
+				        android:layout_height="40dp"
+				        android:background="#f3f3f3"
+				        android:paddingLeft="5dp"
+				        android:layout_marginTop="10dp"
+				        android:entries="@array/bg_arrays"
+				       	android:prompt="@string/bg_prompt"/>
+							    	
+		            <Button
+			            android:id="@+id/btn_regform_dob" 
+			        	android:layout_width="fill_parent"
+			            android:layout_height="38dp"
+			            android:layout_marginLeft="0dp"
+			            android:layout_gravity="center_horizontal"
+			            android:layout_marginTop="20dp"
+			            android:text="Choose Your BirthDate"
+			            android:textColor="#fff"
+			            android:textSize="13dp"
+			            android:background="#13b586"/>
+		            
+		            <EditText
+		                android:id="@+id/et_regform_mobileno"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                android:background="#f3f3f3"
+		                android:hint="Enter Mobile Number"
+		                android:inputType="phone"
+		                android:padding="5dp"
+		                android:layout_marginTop="5dp" 
+		                android:singleLine="true"/>
+		            
+		            <EditText
+		                android:id="@+id/et_regform_emailid"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                android:background="@null"
+		                android:hint="Enter Email ID"
+		                android:inputType="textEmailAddress"
+		                android:padding="5dp" 
+		                android:singleLine="true"/>
+		            
+		            <EditText
+		                android:id="@+id/et_regform_username"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                android:background="#f3f3f3"
+		                android:hint="Enter User Name"
+		                android:inputType="textNoSuggestions"
+		                android:padding="5dp" 
+		                android:singleLine="true"/>
+		            
+		            <EditText
+		                android:id="@+id/et_regform_password"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                android:background="@null"
+		                android:hint="Enter Password"
+		                android:inputType="textPassword"
+		                android:padding="5dp" 
+		                android:singleLine="true"/>
+		            
+		            <EditText
+		                android:id="@+id/et_regform_confirmpassword"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                android:background="#f3f3f3"
+		                android:hint="Confirm Your Password"
+		                android:inputType="textPassword"
+		                android:padding="5dp" 
+		                android:singleLine="true"/>
+		          
+		        </LinearLayout>
+		        
+		        <View 
+		            android:layout_width="fill_parent"
+		            android:layout_marginTop="5dp"
+		            android:layout_height="3dp"
+		            android:background="@drawable/bg_gradient"/>
+		        
+		        <LinearLayout 
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:weightSum="2">
+		            
+		            <Button
+			            android:id="@+id/btn_regform_go_to_verification" 
+			        	android:layout_width="fill_parent"
+			            android:layout_height="38dp"
+			            android:layout_weight="1"
+			            android:layout_gravity="center_horizontal"
+			            android:layout_marginTop="20dp"
+			            android:text="Verify Data"
+			            android:textColor="#fff"
+			            android:textSize="13dp"
+			            android:background="@drawable/bg_button_rounded"/>
+		            
+		            <Button
+			            android:id="@+id/btn_regform_clear_fields" 
+			        	android:layout_width="fill_parent"
+			            android:layout_height="38dp"
+			            android:layout_weight="1"
+			            android:layout_gravity="center_horizontal"
+			            android:layout_marginTop="20dp"
+			            android:text="Clear Fields"
+			            android:textColor="#fff"
+			            android:textSize="13dp"
+			            android:background="@drawable/bg_gradient_1"/>
+		            
+		        </LinearLayout>
+        </LinearLayout>
+	</LinearLayout>
+</ScrollView>

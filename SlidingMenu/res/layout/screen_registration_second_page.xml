@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"   
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1500dp"
+        android:background="@drawable/bg_gradient"
+        android:orientation="vertical"
+        android:padding="10sp" >
+		
+        <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_centerInParent="true"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:gravity="center"
+	        android:orientation="vertical">
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="40dp"
+	            android:text="Varify Details"
+	            android:textColor="@color/whites"
+	            android:textSize="46dp"
+	            android:textStyle="bold" />
+
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="fill_parent"
+		            android:background="@drawable/bg_form_rounded"
+		            android:orientation="vertical" >
+		
+		            <TextView
+		                android:id="@+id/tv_regform_firstname"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                android:background="#f3f3f3"
+		                
+		                android:padding="5dp"
+		                android:inputType="textPersonName" 
+		                />
+		
+		            <TextView
+		                android:id="@+id/tv_regform_lastname"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                         
+		                android:padding="5dp" />
+		            
+		            <TextView
+				    	android:id="@+id/tv_regform_gender" 
+				        android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                android:background="#f3f3f3"
+		                
+		                android:padding="5dp" 
+		                />
+		            
+		            <TextView
+		                android:id="@+id/tv_regform_address"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                
+		                android:padding="5dp" 
+		                />
+		            
+		            <TextView
+				    	android:id="@+id/tv_regform_bloodgroup" 
+				        android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                android:background="#f3f3f3"
+		                
+		                android:padding="5dp" 
+		                />
+							    	
+		            <TextView
+			            android:id="@+id/tv_regform_dob" 
+			        	android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                
+		                android:padding="5dp" 
+		                />
+		            
+		            <TextView
+		                android:id="@+id/tv_regform_mobileno"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                android:background="#f3f3f3"
+		                
+		                android:padding="5dp"
+		                android:layout_marginTop="5dp" 
+		                />
+		            
+		            <TextView
+		                android:id="@+id/tv_regform_emailid"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                android:padding="5dp"/>
+		            
+		            <TextView
+		                android:id="@+id/tv_regform_username"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                android:background="#f3f3f3"
+		                
+		                android:padding="5dp" 
+		                />
+		            
+		            <TextView
+		                android:id="@+id/tv_regform_password"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                
+		                android:padding="5dp" 
+		                />
+		            
+		            <TextView
+		                android:id="@+id/tv_regform_confirmpassword"
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginBottom="10dp"
+		                android:background="#f3f3f3"
+		                android:padding="5dp" 
+		                />
+		          
+		        </LinearLayout>
+		        
+		        <View 
+		            android:layout_width="fill_parent"
+		            android:layout_marginTop="5dp"
+		            android:layout_height="3dp"
+		            android:background="@drawable/bg_gradient"/>
+		        
+		        <LinearLayout 
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:weightSum="2">
+		            
+		            <Button
+			            android:id="@+id/btn_regform_save_data" 
+			        	android:layout_width="fill_parent"
+			            android:layout_height="38dp"
+			            android:layout_weight="1"
+			            android:layout_marginLeft="0dp"
+			            android:layout_gravity="center_horizontal"
+			            android:layout_marginTop="20dp"
+			            android:text="Register "
+			            android:textColor="#fff"
+			            android:textSize="13dp"
+			            android:background="@drawable/bg_button_rounded"/>
+		            
+		            <Button
+			            android:id="@+id/btn_regform_goback" 
+			        	android:layout_width="fill_parent"
+			            android:layout_height="38dp"
+			            android:layout_weight="1"
+			            android:layout_marginLeft="0dp"
+			            android:layout_gravity="center_horizontal"
+			            android:layout_marginTop="20dp"
+			            android:text="Go Back"
+			            android:textColor="#fff"
+			            android:textSize="13dp"
+			            android:background="@drawable/bg_gradient_1"/>
+		            
+		        </LinearLayout>
+        </LinearLayout>
+	</LinearLayout>
+</ScrollView>

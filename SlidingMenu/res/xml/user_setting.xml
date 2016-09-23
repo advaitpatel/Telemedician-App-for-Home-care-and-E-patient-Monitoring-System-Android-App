@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Preferences" >
+
+    <PreferenceCategory android:title="GENERAL SETTINGS - Vision Medicare" >
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="NotiOnOff"
+            android:summary="Notification to remind you (8 AM to 8 PM) - ON"
+            android:title="Notifications on/off" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="NotiOnOff"
+            android:key="isAutoStartEnabled"
+            android:summary="Start Notifications after Rebooting Phone"
+            android:title="Start on boot" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="NotiOnOff"
+            android:key="VibrateOnOff"
+            android:summary="Vibration On"
+            android:title="Vibration on/off" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="NotiOnOff"
+            android:key="LightOnOff"
+            android:summary="LED On"
+            android:title="LED on/off" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="NotiOnOff"
+            android:key="SoundOnOff"
+            android:summary="Sound On"
+            android:title="Default App Sound on/off" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:dependency="NotiOnOff"
+            android:entries="@array/Noti_timing"
+            android:entryValues="@array/Noti_timing_values"
+            android:key="buttonTime"
+            android:summary="Set Notification Frequency"
+            android:title="Notification Timings" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="OTHER" >
+        <Preference
+            android:key="buttonFeedback"
+            android:summary="Email us"
+            android:title="Feedback" />
+        <Preference
+            android:key="buttonRate"
+            android:summary="Google PlayStore"
+            android:title="Rate Us" />
+        
+        <Preference
+            android:key="buttonIntent"
+            android:summary="WebSite"
+            android:title="Visit Vision Medicare" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://localhost:8080/Admin_Side_Hospital/index.jsp" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

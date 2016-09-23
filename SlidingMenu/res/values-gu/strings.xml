@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="hello">આપનું સ્વાગત છે</string>
+    <string name="email">અહીં તમારા ઇમેઇલ ને દાખલ કરો</string>
+    <string name="pwd">અહીં તમારો પાસવર્ડ દાખલ કરો</string>
+    <string name="login">અહીં પ્રવેશ કરો</string>
+    <string name="signup">એકાઉન્ટ નથી? સાઇન અપ કરો</string>
+    <string name="app_name">પ્રવેશ અને નોંધણી</string>
+    <string name="country_prompt">તમારા રક્ત જૂથ પસંદ કરો</string>
+    <string name="bg">રક્ત જૂથ</string>
+    <string name="cont_no">તમારા સંપર્ક નંબર દાખલ કરો</string>
+    <string name="dob">જન્મ તારીખ</string>
+    <string name="male">પુરુષ</string>
+    <string name="female">સ્ત્રી</string>
+    <string name="gen">તમે છો</string>
+    <string name="fna">તમારા પ્રથમ નામ દાખલ કરો</string>
+    <string name="reg_btn">એક નવા એકાઉન્ટ માટે નોંધણી કરો</string>
+    <string name="click_login">પહેલેથી ખાતું છે! અહીં પ્રવેશ કરો</string>
+    <string name="click_reg">તમે વિઝન મેડિકેર માટે નવા છે? અહીં રજીસ્ટર કરો</string>
+    
+    
+</resources>

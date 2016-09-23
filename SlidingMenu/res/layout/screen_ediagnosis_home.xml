@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"   
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <LinearLayout 
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#787878">
+	
+		<LinearLayout 
+		    android:orientation="vertical"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_marginTop="10dp"
+			android:background="@color/whites">
+			
+			<ImageView 
+			    android:id="@+id/ed_img_1"
+			    android:layout_height="50dp" 
+				android:src="@drawable/man" 
+				android:scaleType="fitXY"
+				android:layout_marginStart="10dp"
+				android:layout_marginTop="10dp"
+				android:layout_width="50dp">
+			</ImageView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_doc1"
+				android:layout_width="wrap_content"
+				android:text="Dr. Ravichandran Ashwin" 
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="-50dp"
+				android:layout_height="wrap_content">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_answered1"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="answered" 
+				android:textStyle="italic"
+				android:textSize="6dp"
+				android:textColor="#808080"
+				android:layout_marginLeft="270dp"
+				android:layout_marginTop="-10dp">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_degree1"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:text="M. D (Internal Medicine), M.B.B.S" 
+				android:textSize="12sp"
+				android:textColor="#808080"
+				android:textStyle="italic"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="5dp">
+			</TextView>
+	
+			<TextView 
+				android:id="@+id/ed_tv_quest1" 
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content" 
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:background="@color/whites"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="15dp"
+				android:layout_gravity="center_horizontal"
+				android:text="I am 69 year old male. I have bad breath only in the morning time before my breakfast. No problem throught the day. That is what my wife tells me. I tried.....">
+			</TextView>
+			
+			<TextView 
+			    android:id="@+id/ed_tv_ans1"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="1dp" 
+				android:textSize="14sp"
+				android:textStyle="italic"
+				android:background="@color/whites"
+				android:text="Please check weather you have sinusitis with postnasal drip and have a dental checkup for caries or gingivitis.">
+			</TextView>
+			
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="30dp"
+			    android:layout_marginTop="5dp"
+			    android:background="#E8E8E8"/>
+			
+			<ImageView 
+			    android:layout_marginStart="10dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-29dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_book_appo1"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Book Appointment"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="33dp">
+			</TextView>
+			
+		    <ImageView 
+			    android:layout_marginStart="160dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-23dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_ask_quest1"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Consult Privately"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="185dp">
+			</TextView>
+		    
+		    
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:orientation="vertical"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_marginTop="10dp"
+			android:background="@color/whites">
+			
+			<ImageView 
+			    android:id="@+id/ed_img_2"
+			    android:layout_height="50dp" 
+				android:src="@drawable/man" 
+				android:scaleType="fitXY"
+				android:layout_marginStart="10dp"
+				android:layout_marginTop="10dp"
+				android:layout_width="50dp">
+			</ImageView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_doc2"
+				android:layout_width="wrap_content"
+				android:text="Dr. Jayesh Chawda" 
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="-50dp"
+				android:layout_height="wrap_content">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_answered2"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="answered" 
+				android:textStyle="italic"
+				android:textSize="6dp"
+				android:textColor="#808080"
+				android:layout_marginLeft="270dp"
+				android:layout_marginTop="-10dp">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_degree2"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:text="BDS" 
+				android:textSize="12sp"
+				android:textColor="#808080"
+				android:textStyle="italic"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="5dp">
+			</TextView>
+	
+			<TextView 
+				android:id="@+id/ed_tv_quest2" 
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content" 
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:background="@color/whites"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="15dp"
+				android:layout_gravity="center_horizontal"
+				android:text="I am 45 years old. I have severe tooth ache since the past one month. But there is no decay. Kindly advise.">
+			</TextView>
+			
+			<TextView 
+			    android:id="@+id/ed_tv_ans2"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="1dp" 
+				android:textSize="14sp"
+				android:textStyle="italic"
+				android:background="@color/whites"
+				android:text="Go to a dentist. He will evaluate the situation and if required can do an x-ray to assess the exact problem and guide you.....">
+			</TextView>
+			
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="30dp"
+			    android:layout_marginTop="5dp"
+			    android:background="#E8E8E8"/>
+			
+			<ImageView 
+			    android:layout_marginStart="10dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-29dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_book_appo2"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Book Appointment"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="33dp">
+			</TextView>
+			
+		    <ImageView 
+			    android:layout_marginStart="160dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-23dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_ask_quest2"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Consult Privately"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="185dp">
+			</TextView>
+		    
+		    
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:orientation="vertical"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_marginTop="10dp"
+			android:background="@color/whites">
+			
+			<ImageView 
+			    android:id="@+id/ed_img_3"
+			    android:layout_height="50dp" 
+				android:src="@drawable/man" 
+				android:scaleType="fitXY"
+				android:layout_marginStart="10dp"
+				android:layout_marginTop="10dp"
+				android:layout_width="50dp">
+			</ImageView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_doc3"
+				android:layout_width="wrap_content"
+				android:text="Dr. Anand Jasani" 
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="-50dp"
+				android:layout_height="wrap_content">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_answered3"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="answered" 
+				android:textStyle="italic"
+				android:textSize="6dp"
+				android:textColor="#808080"
+				android:layout_marginLeft="270dp"
+				android:layout_marginTop="-10dp">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_degree3"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:text="Certification in Full Mouth Rehabilitation" 
+				android:textSize="12sp"
+				android:textColor="#808080"
+				android:textStyle="italic"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="5dp">
+			</TextView>
+	
+			<TextView 
+				android:id="@+id/ed_tv_quest3" 
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content" 
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:background="@color/whites"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="15dp"
+				android:layout_gravity="center_horizontal"
+				android:text="How can I remove my mouth smell">
+			</TextView>
+			
+			<TextView 
+			    android:id="@+id/ed_tv_ans3"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="1dp" 
+				android:textSize="14sp"
+				android:textStyle="italic"
+				android:background="@color/whites"
+				android:text="Temporery relief. Use mouth wash long term relief. Go with dentist for scaling clean tongue properly. ">
+			</TextView>
+			
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="30dp"
+			    android:layout_marginTop="5dp"
+			    android:background="#E8E8E8"/>
+			
+			<ImageView 
+			    android:layout_marginStart="10dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-29dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_book_appo3"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Book Appointment"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="33dp">
+			</TextView>
+			
+		    <ImageView 
+			    android:layout_marginStart="160dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-23dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_ask_quest3"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Consult Privately"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="185dp">
+			</TextView>
+		    
+		    
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:orientation="vertical"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_marginTop="10dp"
+			android:background="@color/whites">
+			
+			<ImageView 
+			    android:id="@+id/ed_img_4"
+			    android:layout_height="50dp" 
+				android:src="@drawable/man" 
+				android:scaleType="fitXY"
+				android:layout_marginStart="10dp"
+				android:layout_marginTop="10dp"
+				android:layout_width="50dp">
+			</ImageView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_doc4"
+				android:layout_width="wrap_content"
+				android:text="Dr. Nishant Tiwari" 
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="-50dp"
+				android:layout_height="wrap_content">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_answered4"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="answered" 
+				android:textStyle="italic"
+				android:textSize="6dp"
+				android:textColor="#808080"
+				android:layout_marginLeft="270dp"
+				android:layout_marginTop="-10dp">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_degree4"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:text="MDS - Oral and Maxillofacial Surgery" 
+				android:textSize="12sp"
+				android:textColor="#808080"
+				android:textStyle="italic"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="5dp">
+			</TextView>
+	
+			<TextView 
+				android:id="@+id/ed_tv_quest4" 
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content" 
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:background="@color/whites"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="15dp"
+				android:layout_gravity="center_horizontal"
+				android:text="I have done 'rct' to my lower tooth it was completed but I am not able to open my mouth widely what can I do ? It is due to trismus or what please give me advice.">
+			</TextView>
+			
+			<TextView 
+			    android:id="@+id/ed_tv_ans4"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="1dp" 
+				android:textSize="14sp"
+				android:textStyle="italic"
+				android:background="@color/whites"
+				android:text="Please take Flexon MR twice daily for a week and have soft food only. Refrain from doing any mouth exercise.">
+			</TextView>
+			
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="30dp"
+			    android:layout_marginTop="5dp"
+			    android:background="#E8E8E8"/>
+			
+			<ImageView 
+			    android:layout_marginStart="10dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-29dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_book_appo4"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Book Appointment"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="33dp">
+			</TextView>
+			
+		    <ImageView 
+			    android:layout_marginStart="160dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-23dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_ask_quest4"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Consult Privately"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="185dp">
+			</TextView>
+		    
+		    
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:orientation="vertical"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_marginTop="10dp"
+			android:background="@color/whites">
+			
+			<ImageView 
+			    android:id="@+id/ed_img_5"
+			    android:layout_height="50dp" 
+				android:src="@drawable/man" 
+				android:scaleType="fitXY"
+				android:layout_marginStart="10dp"
+				android:layout_marginTop="10dp"
+				android:layout_width="50dp">
+			</ImageView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_doc5"
+				android:layout_width="wrap_content"
+				android:text="Dr. Ravichandran Ashwin" 
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="-50dp"
+				android:layout_height="wrap_content">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_answered5"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="answered" 
+				android:textStyle="italic"
+				android:textSize="6dp"
+				android:textColor="#808080"
+				android:layout_marginLeft="270dp"
+				android:layout_marginTop="-10dp">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_degree5"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:text="M. D(Internal Medicine), M.B.B.S" 
+				android:textSize="12sp"
+				android:textColor="#808080"
+				android:textStyle="italic"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="5dp">
+			</TextView>
+	
+			<TextView 
+				android:id="@+id/ed_tv_quest5" 
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content" 
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:background="@color/whites"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="15dp"
+				android:layout_gravity="center_horizontal"
+				android:text="I am 69 year old male. I have bad breath only in the morning time before my breakfast. No problem throught the day. That is what my wife tells me. I tried.....">
+			</TextView>
+			
+			<TextView 
+			    android:id="@+id/ed_tv_ans5"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="1dp" 
+				android:textSize="14sp"
+				android:textStyle="italic"
+				android:background="@color/whites"
+				android:text="Please check weather you have sinusitis with postnasal drip and have a dental checkup for caries or gingivitis.">
+			</TextView>
+			
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="30dp"
+			    android:layout_marginTop="5dp"
+			    android:background="#E8E8E8"/>
+			
+			<ImageView 
+			    android:layout_marginStart="10dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-29dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_book_appo5"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Book Appointment"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="33dp">
+			</TextView>
+			
+		    <ImageView 
+			    android:layout_marginStart="160dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-23dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_ask_quest5"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Consult Privately"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="185dp">
+			</TextView>
+		    
+		    
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:orientation="vertical"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_marginTop="10dp"
+			android:background="@color/whites">
+			
+			<ImageView 
+			    android:id="@+id/ed_img_6"
+			    android:layout_height="50dp" 
+				android:src="@drawable/man" 
+				android:scaleType="fitXY"
+				android:layout_marginStart="10dp"
+				android:layout_marginTop="10dp"
+				android:layout_width="50dp">
+			</ImageView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_doc6"
+				android:layout_width="wrap_content"
+				android:text="Dr. Ravichandran Ashwin" 
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="-50dp"
+				android:layout_height="wrap_content">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_answered6"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="answered" 
+				android:textStyle="italic"
+				android:textSize="6dp"
+				android:textColor="#808080"
+				android:layout_marginLeft="270dp"
+				android:layout_marginTop="-10dp">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_degree6"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:text="M. D(Internal Medicine), M.B.B.S" 
+				android:textSize="12sp"
+				android:textColor="#808080"
+				android:textStyle="italic"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="5dp">
+			</TextView>
+	
+			<TextView 
+				android:id="@+id/ed_tv_quest6" 
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content" 
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:background="@color/whites"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="15dp"
+				android:layout_gravity="center_horizontal"
+				android:text="I am 69 year old male. I have bad breath only in the morning time before my breakfast. No problem throught the day. That is what my wife tells me. I tried.....">
+			</TextView>
+			
+			<TextView 
+			    android:id="@+id/ed_tv_ans6"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="1dp" 
+				android:textSize="14sp"
+				android:textStyle="italic"
+				android:background="@color/whites"
+				android:text="Please check weather you have sinusitis with postnasal drip and have a dental checkup for caries or gingivitis.">
+			</TextView>
+			
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="30dp"
+			    android:layout_marginTop="5dp"
+			    android:background="#E8E8E8"/>
+			
+			<ImageView 
+			    android:layout_marginStart="10dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-29dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_book_appo6"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Book Appointment"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="33dp">
+			</TextView>
+			
+		    <ImageView 
+			    android:layout_marginStart="160dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-23dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_ask_quest6"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Consult Privately"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="185dp">
+			</TextView>
+		    
+		    
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:orientation="vertical"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_marginTop="10dp"
+			android:background="@color/whites">
+			
+			<ImageView 
+			    android:id="@+id/ed_img_7"
+			    android:layout_height="50dp" 
+				android:src="@drawable/man" 
+				android:scaleType="fitXY"
+				android:layout_marginStart="10dp"
+				android:layout_marginTop="10dp"
+				android:layout_width="50dp">
+			</ImageView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_doc7"
+				android:layout_width="wrap_content"
+				android:text="Dr. Ravichandran Ashwin" 
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="-50dp"
+				android:layout_height="wrap_content">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_answered7"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="answered" 
+				android:textStyle="italic"
+				android:textSize="6dp"
+				android:textColor="#808080"
+				android:layout_marginLeft="270dp"
+				android:layout_marginTop="-10dp">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_degree7"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:text="M. D(Internal Medicine), M.B.B.S" 
+				android:textSize="12sp"
+				android:textColor="#808080"
+				android:textStyle="italic"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="5dp">
+			</TextView>
+	
+			<TextView 
+				android:id="@+id/ed_tv_quest7" 
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content" 
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:background="@color/whites"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="15dp"
+				android:layout_gravity="center_horizontal"
+				android:text="I am 69 year old male. I have bad breath only in the morning time before my breakfast. No problem throught the day. That is what my wife tells me. I tried.....">
+			</TextView>
+			
+			<TextView 
+			    android:id="@+id/ed_tv_ans7"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="1dp" 
+				android:textSize="14sp"
+				android:textStyle="italic"
+				android:background="@color/whites"
+				android:text="Please check weather you have sinusitis with postnasal drip and have a dental checkup for caries or gingivitis.">
+			</TextView>
+			
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="30dp"
+			    android:layout_marginTop="5dp"
+			    android:background="#E8E8E8"/>
+			
+			<ImageView 
+			    android:layout_marginStart="10dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-29dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_book_appo7"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Book Appointment"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="33dp">
+			</TextView>
+			
+		    <ImageView 
+			    android:layout_marginStart="160dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-23dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_ask_quest7"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Consult Privately"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="185dp">
+			</TextView>
+		    
+		    
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:orientation="vertical"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_marginTop="10dp"
+			android:background="@color/whites">
+			
+			<ImageView 
+			    android:id="@+id/ed_img_8"
+			    android:layout_height="50dp" 
+				android:src="@drawable/man" 
+				android:scaleType="fitXY"
+				android:layout_marginStart="10dp"
+				android:layout_marginTop="10dp"
+				android:layout_width="50dp">
+			</ImageView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_doc8"
+				android:layout_width="wrap_content"
+				android:text="Dr. Ravichandran Ashwin" 
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="-50dp"
+				android:layout_height="wrap_content">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_answered8"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="answered" 
+				android:textStyle="italic"
+				android:textSize="6dp"
+				android:textColor="#808080"
+				android:layout_marginLeft="270dp"
+				android:layout_marginTop="-10dp">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_degree8"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:text="M. D(Internal Medicine), M.B.B.S" 
+				android:textSize="12sp"
+				android:textColor="#808080"
+				android:textStyle="italic"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="5dp">
+			</TextView>
+	
+			<TextView 
+				android:id="@+id/ed_tv_quest8" 
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content" 
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:background="@color/whites"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="15dp"
+				android:layout_gravity="center_horizontal"
+				android:text="I am 69 year old male. I have bad breath only in the morning time before my breakfast. No problem throught the day. That is what my wife tells me. I tried.....">
+			</TextView>
+			
+			<TextView 
+			    android:id="@+id/ed_tv_ans8"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="1dp" 
+				android:textSize="14sp"
+				android:textStyle="italic"
+				android:background="@color/whites"
+				android:text="Please check weather you have sinusitis with postnasal drip and have a dental checkup for caries or gingivitis.">
+			</TextView>
+			
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="30dp"
+			    android:layout_marginTop="5dp"
+			    android:background="#E8E8E8"/>
+			
+			<ImageView 
+			    android:layout_marginStart="10dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-29dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_book_appo8"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Book Appointment"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="33dp">
+			</TextView>
+			
+		    <ImageView 
+			    android:layout_marginStart="160dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-23dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_ask_quest8"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Consult Privately"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="185dp">
+			</TextView>
+		    
+		    
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:orientation="vertical"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_marginTop="10dp"
+			android:background="@color/whites">
+			
+			<ImageView 
+			    android:id="@+id/ed_img_9"
+			    android:layout_height="50dp" 
+				android:src="@drawable/man" 
+				android:scaleType="fitXY"
+				android:layout_marginStart="10dp"
+				android:layout_marginTop="10dp"
+				android:layout_width="50dp">
+			</ImageView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_doc9"
+				android:layout_width="wrap_content"
+				android:text="Dr. Ravichandran Ashwin" 
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="-50dp"
+				android:layout_height="wrap_content">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_answered9"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="answered" 
+				android:textStyle="italic"
+				android:textSize="6dp"
+				android:textColor="#808080"
+				android:layout_marginLeft="270dp"
+				android:layout_marginTop="-10dp">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_degree9"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:text="M. D(Internal Medicine), M.B.B.S" 
+				android:textSize="12sp"
+				android:textColor="#808080"
+				android:textStyle="italic"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="5dp">
+			</TextView>
+	
+			<TextView 
+				android:id="@+id/ed_tv_quest9" 
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content" 
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:background="@color/whites"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="15dp"
+				android:layout_gravity="center_horizontal"
+				android:text="I am 69 year old male. I have bad breath only in the morning time before my breakfast. No problem throught the day. That is what my wife tells me. I tried.....">
+			</TextView>
+			
+			<TextView 
+			    android:id="@+id/ed_tv_ans9"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="1dp" 
+				android:textSize="14sp"
+				android:textStyle="italic"
+				android:background="@color/whites"
+				android:text="Please check weather you have sinusitis with postnasal drip and have a dental checkup for caries or gingivitis.">
+			</TextView>
+			
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="30dp"
+			    android:layout_marginTop="5dp"
+			    android:background="#E8E8E8"/>
+			
+			<ImageView 
+			    android:layout_marginStart="10dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-29dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_book_appo9"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Book Appointment"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="33dp">
+			</TextView>
+			
+		    <ImageView 
+			    android:layout_marginStart="160dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-23dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_ask_quest9"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Consult Privately"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="185dp">
+			</TextView>
+		    
+		    
+		</LinearLayout>
+		
+		<LinearLayout 
+		    android:orientation="vertical"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:layout_marginStart="10dp"
+			android:layout_marginEnd="10dp"
+			android:layout_marginTop="10dp"
+			android:background="@color/whites">
+			
+			<ImageView 
+			    android:id="@+id/ed_img_10"
+			    android:layout_height="50dp" 
+				android:src="@drawable/man" 
+				android:scaleType="fitXY"
+				android:layout_marginStart="10dp"
+				android:layout_marginTop="10dp"
+				android:layout_width="50dp">
+			</ImageView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_doc10"
+				android:layout_width="wrap_content"
+				android:text="Dr. Ravichandran Ashwin" 
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="-50dp"
+				android:layout_height="wrap_content">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_answered10"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="answered" 
+				android:textStyle="italic"
+				android:textSize="6dp"
+				android:textColor="#808080"
+				android:layout_marginLeft="270dp"
+				android:layout_marginTop="-10dp">
+			</TextView>
+			
+			<TextView 
+				android:id="@+id/ed_tv_degree10"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:text="M. D(Internal Medicine), M.B.B.S" 
+				android:textSize="12sp"
+				android:textColor="#808080"
+				android:textStyle="italic"
+				android:layout_marginStart="80dp"
+				android:layout_marginTop="5dp">
+			</TextView>
+	
+			<TextView 
+				android:id="@+id/ed_tv_quest10" 
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content" 
+				android:textSize="15sp"
+				android:textStyle="bold"
+				android:background="@color/whites"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="15dp"
+				android:layout_gravity="center_horizontal"
+				android:text="I am 69 year old male. I have bad breath only in the morning time before my breakfast. No problem throught the day. That is what my wife tells me. I tried.....">
+			</TextView>
+			
+			<TextView 
+			    android:id="@+id/ed_tv_ans10"
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+				android:layout_marginStart="10dp"
+				android:layout_marginEnd="10dp"
+				android:layout_marginTop="1dp" 
+				android:textSize="14sp"
+				android:textStyle="italic"
+				android:background="@color/whites"
+				android:text="Please check weather you have sinusitis with postnasal drip and have a dental checkup for caries or gingivitis.">
+			</TextView>
+			
+			<View 
+			    android:layout_width="fill_parent"
+			    android:layout_height="30dp"
+			    android:layout_marginTop="5dp"
+			    android:background="#E8E8E8"/>
+			
+			<ImageView 
+			    android:layout_marginStart="10dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-29dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_book_appo10"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Book Appointment"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="33dp">
+			</TextView>
+			
+		    <ImageView 
+			    android:layout_marginStart="160dp"
+			    android:layout_height="26dp"
+			    android:layout_marginTop="-23dp" 
+				android:src="@drawable/bookdoc" 
+				android:scaleType="fitXY"
+				android:layout_width="20dp">
+			</ImageView>
+		    
+		    <TextView 
+			    android:id="@+id/ed_tv_btn_ask_quest10"
+			    android:layout_marginTop="-21dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="Consult Privately"
+				android:textColor="#680000"
+				android:textSize="14sp" 
+				android:textStyle="italic"
+				android:layout_marginStart="185dp">
+			</TextView>
+		    
+		    
+		</LinearLayout>
+		
+		
+		
+	</LinearLayout>
+    
+            
+</ScrollView>

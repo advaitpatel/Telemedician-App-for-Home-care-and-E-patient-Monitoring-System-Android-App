@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/rounded_corner"
+    android:layout_height="match_parent"
+    
+    >
+
+    <VideoView android:id="@+id/videoView1"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_width="fill_parent"
+         android:background="#90000000"
+         android:layout_height="fill_parent">
+    </VideoView>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_string"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:text="Welcome! "
+            android:textColor="@color/whites"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_form_rounded"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/et_login_username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:hint="User Name"
+                android:padding="5dp" 
+                android:singleLine="true"/>
+
+            <EditText
+                android:id="@+id/et_login_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Password"
+                android:inputType="textPassword"           
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/bg_gradient_1"
+            android:text="Login" 
+            android:textColor="@color/whites"/>
+    </LinearLayout>
+    
+    <TextView 
+        android:id="@+id/link_to_register_account_go"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New To Vision Medicare ?? Create an Account"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/whites"/>
+    
+    <TextView 
+        android:id="@+id/link_to_forget_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Forget Password ??"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="25dp"
+        android:textColor="@color/whites"/>
+
+</RelativeLayout>

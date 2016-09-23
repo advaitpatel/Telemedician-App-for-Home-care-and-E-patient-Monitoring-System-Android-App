@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="hello">स्वागतम</string>
+    <string name="email">अपना ईमेल आईडी</string>
+    <string name="pwd">यहां अपना पासवर्ड डाल</string>
+    <string name="login">यहां लॉगिन करें</string>
+    <string name="signup">खाता नहीं है? साइन अप करें</string>
+    <string name="app_name">लॉगिन और पंजीकरण</string>
+    <string name="country_prompt">आपके रक्त समूह चुनें</string>
+    <string name="bg">रक्त समूह</string>
+    <string name="cont_no">अपने संपर्क नंबर डाल</string>
+    <string name="dob">जन्मतिथि</string>
+    <string name="male">पुरुष</string>
+    <string name="female">स्त्री</string>
+    <string name="gen">आप</string>
+    <string name="fna">आपका प्रथम नाम</string>
+    <string name="reg_btn">नए खाते के लिए दर्ज करें</string>
+    <string name="click_login">पहले से ही खाता है! यहां लॉगिन करें</string>
+    <string name="click_reg">विजन चिकित्सा के लिए नए हैं? यहां रजिस्टर करें</string>
+
+    <string name="past_appointment"> पिछले अपॉइंटमेंट </string>
+    <string name="created_notification"> पिछले नोटिफिकेशन </string>
+    <string name="consulted_doctors">संबंधित डॉक्टर</string>
+   	<string name="asked_question">आपके प्रश्न</string> 
+    <string name="stored_prescribtion">संग्रहित प्रिस्क्रिब्शन</string>
+    <string name="stored_bills">संग्रहित बिल</string>
+    <string name="searched_stores">सर्चड़ स्टोर</string>
+    <string name="searched_labs">सर्चड़ लेब</string>
+    <string name="donated_body_parts">दान किये गए अंग</string> 
+    <string name="used_imergency">आपातकालीन  वपराश</string>
+    
+    <string name="tips_from_specialists">विशेषज्ञ की सलाह</string>
+    <string name="search">खोज</string>
+    <string name="add">जोड़ना</string>
+    <string name="edit">एडिट</string>
+    <string name="change_password">पासवर्ड बदले</string>
+    <string name="modify_account">खाता सुधारे</string>
+    <string name="faqs">एफ ए क्यू</string>
+    <string name="visit_our_website">वेबसाइट की मुलाकात</string>
+   
+    <string name="registration">रजिस्ट्रेशन</string>
+    
+    <string name="home">घर</string>
+    <string name="appoint">अपॉइंटमेंट लीजिये</string>
+    <string name="quest">प्रश्न पूछो</string>
+    <string name="emerg">आपातकालीन समय</string>
+    <string name="doc">अच्छा डॉक्टर चुनिए</string>
+    <string name="lab">मेडिकल लेब  चुनिए</string>
+    <string name="store">मेडिकल स्टोर चुनिए</string>
+    <string name="his">यूजर हिस्ट्री</string>
+    <string name="donate">शरीर अंग दान</string>
+    <string name="noti">नोटिफिकेशन  बनाये</string>
+    <string name="pre">अपलोड प्रिस्क्रिब्शन</string>
+    
+    
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"   
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <LinearLayout  
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="@drawable/background_4"
+       android:orientation="vertical">
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_4">
+            
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/donate_img"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-70dp"
+                android:contentDescription="Vision Medicare" />
+             
+        <Button 
+            android:layout_width="fill_parent"
+		    android:layout_height="38dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="-38dp"
+		    android:text="Please Fill Mention Details"
+		    android:textColor="#fff"
+		    android:textSize="13dp"
+	        android:background="#eb543b"
+	        android:clickable="false"/>
+        
+        <EditText 
+	   	    android:id="@+id/don_et_donate_username"
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"	            
+	        android:hint="Enter Your User Name"
+	        android:background="#f3f3f3"
+	        android:paddingLeft="5dp"
+	        android:layout_marginTop="0dp"/>
+        
+        <EditText 
+	    	android:id="@+id/don_et_donate_mobno"
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+            android:hint="Enter Your Contact Number"
+	       	android:background="#f3f3f3"
+	        android:paddingLeft="5dp"
+	        android:layout_marginTop="0dp"/>
+	     
+        <Spinner
+            android:id="@+id/don_spn_part" 
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/part_arrays"
+        	android:prompt="@string/part_prompt"/>
+        
+         <EditText 
+            android:id="@+id/donate_et_day"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="When will you wish for donation"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"/>
+        
+        <!-- Here Address Box will shown -->
+        
+        <EditText 
+            android:id="@+id/don_et_donate_reason_for_donation"
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:hint="Explain Your Reasons For Donations"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"/>
+             
+        <Button 
+            android:id="@+id/btn_donate_make_donation"
+            android:layout_width="190dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Book My Donation"
+            android:textColor="#fff"
+            android:background="@drawable/btn"/>
+            
+    	</LinearLayout>         
+    
+	</LinearLayout>
+        
+</ScrollView>

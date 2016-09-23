@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"   
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="2500dp"
+	    android:orientation="vertical"
+	    android:padding="10sp" >
+	 
+    <EditText
+        android:id="@+id/txtReg_fna"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Name"
+        android:inputType="textPersonName"
+        android:singleLine="true" >
+        <requestFocus />
+    </EditText>
+ 
+    <EditText
+        android:id="@+id/txtReg_lna"
+        android:hint="Enter Last Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+    </EditText>
+    
+    <Spinner
+    	android:id="@+id/txtReg_gender" 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#f3f3f3"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/gender_arrays"
+       	android:prompt="@string/gender_prompt"/>
+	
+    <View 
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:background="#0000FF"
+        />
+    
+    <EditText
+        android:id="@+id/txtReg_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:inputType="textMultiLine"
+        android:singleLine="false" >
+    </EditText>
+    
+    <Spinner
+    	android:id="@+id/txtReg_bloodgroup" 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#f3f3f3"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/bg_arrays"
+       	android:prompt="@string/bg_prompt"/>
+    
+    <View 
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:background="#0000FF"
+        />
+    
+    <DatePicker
+		android:id="@+id/txtReg_bdate"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:background="#f3f3f3"
+        android:paddingLeft="5dp"
+        android:endYear="2015"
+        android:startYear="1950"
+        android:calendarViewShown="false" />
+    
+    <EditText
+        android:id="@+id/txtReg_mno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile Number"
+        android:inputType="phone"
+        android:singleLine="true" >        
+    </EditText>
+ 
+    <EditText
+        android:id="@+id/txtReg_email"
+        android:hint="Enter Email ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" >
+    </EditText>
+    
+    <EditText
+        android:id="@+id/txtReg_una"
+        android:hint="Enter User Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+    </EditText>
+    
+    <EditText
+        android:id="@+id/txtReg_pass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:singleLine="true" >
+    </EditText>
+ 
+    <EditText
+        android:id="@+id/txtReg_conpass"
+        android:hint="Enter Confirm Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" >
+    </EditText>
+ 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <Button
+            android:id="@+id/btn_register" 
+        	android:layout_width="100dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Register"
+            android:textColor="#fff"
+            android:textSize="13dp"
+            android:background="#13b586"/>
+ 
+        <Button
+            android:id="@+id/btn_cancel" 
+            android:layout_width="100dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Cancel"
+            android:textColor="#fff"
+            android:textSize="13dp"
+            android:background="#eb543b"/>
+        
+    </RelativeLayout>
+ 
+</LinearLayout>
+    
+    
+</ScrollView>

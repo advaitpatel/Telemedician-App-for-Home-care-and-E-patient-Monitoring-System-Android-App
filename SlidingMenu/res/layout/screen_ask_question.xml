@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"   
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <LinearLayout  
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="@drawable/background_4"
+       android:orientation="vertical">
+       
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginBottom="10dp"
+	        android:orientation="vertical"
+	        android:background="@drawable/background_4">
+	            
+	        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/doc_ask_quest"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="0dp"
+                android:contentDescription="Vision Medicare" />
+	        
+	        <Button 
+	            android:layout_width="fill_parent"
+			    android:layout_height="38dp"
+			    android:layout_gravity="center_horizontal"
+			    android:layout_marginTop="16dp"
+			    android:text="Fill Mention Details"
+			    android:textColor="#fff"
+			    android:textSize="13dp"
+		        android:background="#eb543b"
+		        android:clickable="false"/>
+	        
+	        <EditText 
+	            android:id="@+id/ask_et_askquest_una"
+	            android:layout_width="fill_parent"
+	            android:layout_height="40dp"
+	            android:hint="Enter Your User Name"
+	            android:background="#f3f3f3"
+	            android:paddingLeft="5dp"
+	            android:layout_marginTop="0dp"/>
+	     
+	        
+	        
+	        <EditText 
+	            android:id="@+id/ask_et_askquest_quest_title"
+	            android:layout_width="fill_parent"
+	            android:layout_height="40dp"
+	            android:hint="Enter Your Question Title"
+	            android:background="#f3f3f3"
+	            android:paddingLeft="5dp"
+	            android:layout_marginTop="0dp"/>
+	        
+	        <Spinner
+	            android:id="@+id/ask_spn_doctor"
+	            android:scrollbarStyle="outsideOverlay"
+	            android:layout_width="fill_parent"
+	            android:layout_height="40dp"
+	            android:background="#f3f3f3"
+	            android:paddingLeft="5dp"
+	            android:layout_marginTop="10dp"
+	            android:entries="@array/doc_arrays"
+	        	android:prompt="@string/doc_prompt"/>
+	        
+	        <EditText 
+	            android:id="@+id/ask_question_whole_quest"
+	            android:layout_width="fill_parent"
+	            android:layout_height="400dp"
+	            android:hint="Type Your Question Here. Please Note that Your Question should be as much as descriptive. So,that Our Doctors could easily understand and grab.
+	            One more thing that, Your question is really important for us and we assure you that it will safely store and publish too. "
+	            android:background="#f3f3f3"
+	            android:paddingLeft="5dp"
+	            android:layout_marginTop="10dp" />
+	         
+	        <ImageView
+	            android:id="@+id/imgview_ask_quest"
+                android:layout_width="fill_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/doc_ask_quest"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:contentDescription="Vision Medicare" />
+	        
+	        <Button 
+	            android:id="@+id/ask_btn_uploadImage"
+	            android:layout_width="fill_parent"
+			    android:layout_height="38dp"
+			    android:layout_gravity="center_horizontal"
+			    android:layout_marginTop="16dp"
+			    android:text="Upload Image For Better Understanding"
+			    android:textColor="#fff"
+			    android:textSize="13dp"
+		        android:background="#13B586"
+		        android:clickable="true"/>
+	        
+	        <Button 
+	            android:id="@+id/ask_btn_ask_quest"
+	            android:layout_width="190dp"
+	            android:layout_height="46dp"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_marginTop="16dp"
+	            android:text="Ask My Question"
+	            android:textColor="#fff"
+	            android:background="@drawable/btn"/>
+	            
+	</LinearLayout>
+    
+</LinearLayout>
+        
+</ScrollView>

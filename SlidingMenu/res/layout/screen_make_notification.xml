@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"   
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <!-- #faa519 -->
+    
+    <LinearLayout  
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/background_4"
+       android:orientation="vertical">
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_4"><!-- greybackground -->
+            
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/doc_notification"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="0dp"
+                android:contentDescription="Vision Medicare" />
+        
+        <Button 
+            android:layout_width="fill_parent"
+		    android:layout_height="38dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="16dp"
+		    android:text="Fill Mention Details"
+		    android:textColor="#fff"
+		    android:textSize="13sp"
+	        android:background="#eb543b"
+	        android:clickable="false"/>
+        
+        <EditText 
+            android:id="@+id/noti_title"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="Type Notification Title"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="0dp"/>
+             
+        <EditText 
+            android:id="@+id/noti_medi_name"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="Type Medicine Name Easier For You"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            />
+             
+        <Button 
+            android:layout_width="fill_parent"
+		    android:layout_height="38dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="16dp"
+		    android:text="More Descriptions About Medicines"
+		    android:textColor="#fff"
+		    android:textSize="13sp"
+	        android:background="#eb543b"
+	        android:clickable="false"/>
+        
+        <EditText 
+            android:id="@+id/noti_reason"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="Type Reason For Take"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="0dp"/>
+        
+        <EditText 
+            android:id="@+id/noti_doc_note"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="Type Doctor's Special Note"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="0dp"/>
+        
+        <Spinner
+            android:id="@+id/noti_spn_way" 
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/way_arrays"
+        	android:prompt="@string/way_prompt"/>
+             
+        
+        <Button 
+            android:layout_width="fill_parent"
+		    android:layout_height="38dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="16dp"
+		    android:text="Reminder Times"
+		    android:textColor="#fff"
+		    android:textSize="13dp"
+	        android:background="#eb543b"
+	        android:clickable="false"/>
+        
+        <Spinner
+            android:id="@+id/noti_spn_day" 
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/day_arrays"
+        	android:prompt="@string/day_prompt"/>
+        
+       	<EditText 
+       	    android:id="@+id/noti_time"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="Enter Time Here"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="0dp"/> 
+        
+        
+        <Button 
+            android:layout_width="fill_parent"
+		    android:layout_height="38dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="16dp"
+		    android:text="Choose Your Pill Size"
+		    android:textColor="#fff"
+		    android:textSize="13dp"
+	        android:background="#eb543b"
+	        android:clickable="false"/>
+        
+        <Spinner
+            android:id="@+id/noti_spn_pill_size" 
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/pill_arrays"
+        	android:prompt="@string/pill_prompt"/>
+        
+        <Button 
+            android:id="@+id/notification_generate"
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Save My Medicine To Notify Me"
+            android:textColor="#fff"
+            android:background="@drawable/btn"/>
+        
+        <Button 
+            android:id="@+id/setAlarm"
+            android:layout_width="fill_parent"
+            android:layout_height="46dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Set Alarm"
+            android:textColor="#fff"
+            android:background="@drawable/btn"/>
+            
+    	</LinearLayout>
+        
+    	<LinearLayout android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+        	android:orientation="vertical">
+    	</LinearLayout>
+             
+    
+	</LinearLayout>
+        
+</ScrollView>

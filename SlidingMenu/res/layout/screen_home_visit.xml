@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"   
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <LinearLayout  
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:background="#faa519"
+       android:orientation="vertical">
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/greybackground">
+            
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:contentDescription="Vision Medicare"
+            android:src="@drawable/doctor_image" />
+        
+        <Button 
+            android:layout_width="fill_parent"
+		    android:layout_height="38dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="15dp"
+		    android:text="Fill Mention Details To Book Home Visit"
+		    android:textColor="#fff"
+		    android:textSize="13dp"
+	        android:background="#eb543b"
+	        android:clickable="false"/>
+        
+        <Spinner
+            android:id="@+id/book_home_spn_relation" 
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/relation_arrays"
+        	android:prompt="@string/relation_prompt"/>
+        
+        <EditText 
+            android:id="@+id/book_home_et_name"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="Type Name"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"/>
+             
+        <EditText 
+            android:id="@+id/book_home_mobile_no"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:hint="Type Mobile Number"
+            android:background="#f3f3f3"
+            android:inputType="phone"
+            android:paddingLeft="5dp"
+            />
+        
+        <EditText 
+            android:id="@+id/book_home_address"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:hint="Type Address"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            />
+        
+        <Button 
+            android:layout_width="fill_parent"
+		    android:layout_height="38dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="16dp"
+		    android:text="Tell Us Your Comfortable Date and Time"
+		    android:textColor="#fff"
+		    android:textSize="13dp"
+	        android:background="#eb543b"
+	        android:clickable="false"/>
+        
+        <Button 
+            android:id="@+id/book_home_date"
+            android:layout_width="fill_parent"
+		    android:layout_height="38dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="16dp"
+		    android:text="Select Date"
+		    android:textColor="#fff"
+		    android:textSize="13dp"
+	        android:background="#2683C2"
+	        android:clickable="true"/>
+        
+        <Button 
+            android:id="@+id/book_home_time"
+            android:layout_width="fill_parent"
+		    android:layout_height="38dp"
+		    android:layout_gravity="center_horizontal"
+		    android:layout_marginTop="16dp"
+		    android:text="Select Time"
+		    android:textColor="#fff"
+		    android:textSize="13dp"
+	        android:background="#2683C2"
+	        android:clickable="true"/>
+        
+        <!-- Here Address Box will shown -->
+        
+        <EditText 
+            android:id="@+id/book_home_instructions"
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:hint="Type Some Special Instructions Here......"
+            android:background="#f3f3f3"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="10dp"
+            />
+             
+        <Button 
+            android:id="@+id/book_home_btn_book_home_visit"
+            android:layout_width="190dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Book Home Visit"
+            android:textColor="#fff"
+            android:background="@drawable/btn"/>
+            
+    	</LinearLayout>
+        
+    	<LinearLayout android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+        	android:orientation="vertical">
+    	</LinearLayout>
+             
+    
+	</LinearLayout>
+        
+</ScrollView>

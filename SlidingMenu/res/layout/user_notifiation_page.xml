@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:text="Notification "
+            android:textColor="@color/whites"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_marginTop="-80dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_form_rounded"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/noti_reply_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:hint="Notification Title"
+                android:padding="5dp" 
+                android:singleLine="true"
+                android:layout_marginTop="0dp"/>
+
+            <TextView
+                android:id="@+id/noti_reply_medi_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Medicine Name"
+                           
+                android:padding="5dp" />
+            
+            <TextView
+                android:id="@+id/noti_reply_reason"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:hint="Reason for taking Medicine"
+                android:padding="5dp" 
+                android:singleLine="true"/>
+
+            <TextView
+                android:id="@+id/noti_reply_doc_note"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Doctor's instructions"
+                           
+                android:padding="5dp" />
+            
+            <TextView
+                android:id="@+id/noti_reply_byway"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:hint="Way to take medicine"
+                android:padding="5dp" 
+                android:singleLine="true"/>
+
+            <TextView
+                android:id="@+id/noti_reply_days"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Days to take medicine"
+                           
+                android:padding="5dp" />
+            
+            <TextView
+                android:id="@+id/noti_reply_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@null"
+                android:hint="Time to take medicine"
+                android:padding="5dp" 
+                android:singleLine="true"/>
+
+            <TextView
+                android:id="@+id/noti_reply_pill_size"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Pill Size"
+                           
+                android:padding="5dp" />
+        </LinearLayout>
+
+        
+    </LinearLayout>
+
+</RelativeLayout>

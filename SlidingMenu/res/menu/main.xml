@@ -1,0 +1,69 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    
+    <item 
+        android:id="@+id/action_doc_lv"
+        android:icon="@drawable/doc_home_actionbar"
+        android:title="View Our Doctors"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_ediagnosis"
+        android:icon="@drawable/ed_home_actionbar"
+        android:showAsAction="ifRoom"
+        android:title="E-Diagnosis"/> 
+        
+    <item
+        android:id="@+id/empty"
+        android:icon="@android:drawable/ic_menu_more"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:title="All">
+        <menu>
+        	<item 
+    			android:id="@+id/action_doc_home"
+    			android:icon="@drawable/doctor_image"
+    			android:title="@string/book_home_visit"
+    			android:showAsAction="never"/>
+		   <item 
+		       android:id="@+id/action_my_profile"
+		       android:icon="@drawable/myprofile_actionbar"
+		       android:title="My Profile"
+		       android:orderInCategory="100"
+		       android:showAsAction="never"/>
+    		
+    		<item
+		        android:id="@+id/action_faqs"
+		        android:orderInCategory="100"
+		        android:showAsAction="never"
+		        android:icon="@drawable/faq_actionbar"
+		        android:title="@string/faqs"/>
+		    <item
+		        android:id="@+id/action_trial_notification"
+		        android:orderInCategory="100"
+		        android:showAsAction="never"
+		        android:icon="@drawable/reg_client"
+		        android:title="Trial Notification"/>
+		    <item
+		        android:id="@+id/action_contact_us"
+		        android:orderInCategory="100"
+		        android:showAsAction="never"
+		        android:icon="@drawable/reg_client"
+		        android:title="Contact Us"/>
+		    <item
+		        android:id="@+id/action_preference_manager"
+		        android:orderInCategory="100"
+		        android:showAsAction="never"
+		        android:icon="@drawable/reg_client"
+		        android:title="Change Your Settings"/>
+		    
+            <item
+		        android:id="@+id/action_notification"
+		        android:orderInCategory="100"
+		        android:showAsAction="never"
+		        android:icon="@drawable/reg_client"
+		        android:title="Notification"/>
+        </menu>
+    </item>
+    
+
+</menu>
